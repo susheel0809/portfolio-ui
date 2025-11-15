@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "Yoga Booking App",
+      "slug": "yoga-booking-app",
+      "description": "A booking app for yoga sessions with calendar and payment integration.",
+      "tech_stack": ["React", "Spring Boot", "MySQL"],
+      "image_url": "/assets/yoga.jpg",
+      "link": "https://github.com/you/yoga-booking"
+    },
+    {
+      "id": 2,
+      "title": "Portfolio Website",
+      "slug": "portfolio-website",
+      "description": "Personal portfolio with admin panel to edit projects and posts.",
+      "tech_stack": ["React", "Tailwind"],
+      "image_url": "/assets/portfolio.jpg",
+      "link": "https://your-portfolio.com"
+    }
+  ]
+  
