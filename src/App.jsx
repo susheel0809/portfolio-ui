@@ -12,6 +12,7 @@ import NavBar from "./components/public/NewNavBar"
 
 export default function App() {
   return (
+    
     <div className="min-h-screen flex flex-col">
       <NavBar />
       <main className="flex-1 container mx-auto px-4 py-8">

@@ -7,7 +7,7 @@ export default function Home() {
   const featured = projects.slice(0, 2);
   return (
     <div>
-      {/* <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-12">
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-12">
         <div>
           <h1 className="text-4xl font-bold">Hi, I'm [Your Name]</h1>
           <p className="mt-4 text-gray-700">
@@ -30,16 +30,16 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section> */}
+      </section>
 
-      {/* <section>
+      <section>
         <h2 className="text-2xl font-semibold mb-4">Selected Projects</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {featured.map((p) => (
             <ProjectCard key={p.id} project={p} />
           ))}
         </div>
-      </section> */}
+      </section>
     </div>
   );
 }
